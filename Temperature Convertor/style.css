@@ -1,0 +1,25 @@
+.fluid-container
+{
+    padding: 10% 25%;
+    text-align: center;
+}
+
+body
+{
+    background-color: #FEC868;
+}
+.row
+{
+    background-color: #FDA769;
+    padding: 100px 50px;
+    text-align: center;
+    
+}
+.label
+{
+    padding-bottom: 10px;
+}
+.input
+{
+    padding-bottom: 10px;
+}
