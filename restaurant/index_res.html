@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FoodAddict</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+
+    <link rel="stylesheet" href="style_rec.css">
+    <script src="https://kit.fontawesome.com/6d4a8c5b1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section id="title">
+        <div class="fluid-container">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-grey navbar-expand-lg nav-flex-row">
+                <h1 class="navbar-brand">FoodAddict</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <style></style>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="section-intro">
+
+        <div class="link-to-book-wrapper"> <i class="fa-solid fa-pot-food"></i>
+            <button type="button" class="btn btn-outline-light btn-lg Book-button"><i
+                    class="fa-solid fa-utensils font-awesome"></i> Book a
+                table </button>
+        </div>
+    </section>
+
+    <section id="body">
+
+        <div class="row">
+            <div class="meal col-lg-4"><i class="fa-solid fa-mug-saucer fa-3x icon"></i>
+                <h3>Breakfast</h3>
+                <p>Start your with Addict's Coffee</p>
+            </div>
+            <div class="meal col-lg-4"><i class="fa-sharp fa-solid fa-bowl-food fa-3x icon"></i>
+                <h3>Lunch</h3>
+                <p>Lunchtime is bonding time with us</p>
+            </div>
+            <div class="meal col-lg-4">
+                <i class="fa-sharp fa-solid fa-wine-bottle fa-3x icon"></i>
+                <h3>Dinner</h3>
+                <p>Enjoy your evening with friend Addict</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+
+                    <img class="testimonial-image" src="img\lily-banse--YHSwy6uqvk-unsplash.jpg" alt="FOOD">
+                </div>
+                <div class="carousel-item container-fluid">
+
+                    <img class="testimonial-image" src="img\rachel-park-hrlvr2ZlUNk-unsplash.jpg" alt="FOOD">
+                </div>
+                <div class="carousel-item container-fluid">
+
+                    <img class="testimonial-image" src="img\brooke-lark-aGjP08-HbYY-unsplash.jpg" alt="FOOD">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+        <section id="booking">
+            <div class="row">
+                <div class="col-lg-4 booking">
+                    <h3 class="booking-heading">
+                        Make a booking
+                      </h3>
+                    <form class="media-centered">
+                        <div class="form-group">
+                          <p class="booking-head">
+                            Please leave your number we will call to make a reservation
+                          </p>
+                          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-4 booking">
+                    <div class="opening-time">
+                        <h3>
+                          Opening times
+                        </h3><br>
+                        <p>
+                         <span>Monday—Thursday: 08:00 — 22:00</span> <br>
+                         <span>Friday—Saturday: 09:00 — 23:00 </span><br>
+                         <span>Sunday: 10:00 — 17:00</span>
+                        </p>
+                      </div>
+                </div>
+                <div class="col-lg-4 booking">
+                    <div class="contact-adress">
+                        <h3>
+                          Contact
+                        </h3><br>
+                        <p>
+                          <span>2121 5687 5656</span><br>
+                          <span>15 Florida Ave</span><br>
+                          <span>Palo-Alto, 1111 CA</span>
+                        </p>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="white-section" id="footer">
+            <div class="container-fluid">
+              <i class="social-icon fab fa-facebook-f fa-2x"></i>
+              <i class="social-icon fab fa-twitter fa-2x"></i>
+              <i class="social-icon fab fa-instagram fa-2x"></i>
+              <i class="social-icon fas fa-envelope fa-2x"></i>
+              <p>© Copyright 2023 FoodAddict</p>
+            </div>
+          </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+   
+</body>
+
+</html>

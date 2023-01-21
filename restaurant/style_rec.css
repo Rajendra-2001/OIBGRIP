@@ -1,0 +1,143 @@
+#title
+{
+    background-color: #373737;
+}
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding:0 15%;
+    
+}
+.fluid-container
+{
+    padding:0 15%;
+}
+.navbar-brand
+{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    color: #fff;
+}
+.nav-item
+{
+    padding: 0 12px;
+}
+.nav-link
+{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.navbar-toggler-icon:hover
+{
+    font: 900;
+}
+.section-intro {
+    height: 820px;
+    background-image: url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Book-button
+{
+    
+    font-family: "Ubuntu";
+}
+.font-awesome
+{
+    padding-right: 10px;
+    size: 2.5rem;
+}
+
+
+
+#body
+{
+    padding: 7% 18%;
+   
+}
+
+.meal 
+{
+    text-align: center;
+}
+
+.icon
+{
+    padding-bottom: 1rem;
+    
+}
+
+.icon:hover
+{
+    color: #8f8f8f;
+}
+/* .carousel-inner {
+    height: 270px;
+} */
+
+.testimonial-image
+{
+    width: 95%;
+    margin-left: 2.5%;
+    
+}
+#booking
+{
+    padding: 7% 15%;
+    /* margin: 10px; */
+}
+.form-group
+{
+    margin: 5%  0;
+}
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon
+{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-icon:hover
+{
+    color: #8f8f8f;
+}
+.social-icon1:hover
+{
+    color: #8f8f8f;
+}
+
+#footer p
+{
+    margin-left: 2rem;
+}
+span
+{
+    font-size: 1.2rem;
+}
+
+p
+{
+    font-size: 1.2rem;
+}
+
+.booking
+{
+    padding: 2rem;
+}
+.booking-heading
+{
+    margin-bottom: 2rem;
+}
